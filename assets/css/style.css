@@ -1168,6 +1168,80 @@ h3 {
   main styling ends here
 =================================*/
 
+/*--------------what styling starts----------*/
+.what h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.what h2 {
+  padding-bottom: 10px;
+  color: #919494;
+  font-size: 17px;
+  text-align: center;
+}
+
+.what h3 {
+  padding-bottom: 15px;
+  color: #1F1E2A;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.management {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.construction,
+.construction-img,
+.design {
+  flex-basis: 31%;
+}
+
+.construction,
+.design {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.construction-img {
+  flex-basis: 31.5%;
+  padding-top: 40px;
+}
+
+.construction li,
+.design li {
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.construction-content {
+  flex-basis: 74%;
+}
+
+.construction-content h4 {
+  padding-bottom: 15px;
+  color: #3C3539;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.construction-content p {
+  color: #898B87;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/*--------------what styling ends----------*/
+
 /*=================================
   footer styling starts here
 =================================*/
