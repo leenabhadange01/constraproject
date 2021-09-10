@@ -1977,5 +1977,341 @@ h3 {
 =================================*/
 
 /*media query starts*/
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  header .wrapper {
+    padding-bottom: 20px;
+    z-index: 30;
+  }
+
+  .hamburger::after {
+    padding-bottom: 30px;
+    float: right;
+    display: block;
+    content: '\f0c9';
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 40%;
+    font-family: 'fontAwesome';
+    font-weight: 800;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger span:nth-child(2) {
+    margin: 2px 0;
+  }
+
+  nav:hover>ul {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 67px;
+    left: 0;
+    z-index: 1000;
+    background-color: #000;
+  }
+
+  nav li {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    transition: all .3s;
+  }
+
+  nav li:hover .dropdown,
+  .active::after,
+  .project-imgs li:hover .overlay {
+    display: none;
+  }
+
+  nav li a:hover {
+    color: #fff;
+  }
+
+  .get:hover,
+  .know:hover,
+  .free:hover {
+    color: #fff;
+    background-color: #FFB600;
+  }
+
+  .our:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #FFB600;
+  }
+
+
+  .tab li a:hover,
+  .show {
+    background-color: transparent;
+  }
+
+  .prevarrow,
+  .nextarrow,
+  .needshome .prevsign,
+  .needshome .nextsign,
+  nav li a:hover,
+  .nav-quote,
+  .search,
+  .overlay,
+  .social-icons a::before,
+  .active::after,
+  .contact a,
+  .get,
+  .see,
+  .view,
+  .free,
+  .know,
+  .request,
+  .our,
+  .up-arrow::after,
+  .tab li a,
+  input[type=submit],
+  .navigation li a,
+  .top {
+    cursor: none;
+  }
+
+  .social-icons a:hover::before,
+  .upper-footer .social-icons a:hover::before,
+  .upperheader .social-icons a:hover::before {
+    color: #2C2C2C;
+  }
+
+  .contact {
+    margin: 10px 0;
+    flex-basis: 100%;
+  }
+
+  .contact-details {
+    flex-basis: 74%;
+  }
+
+  .get {
+    margin: 20px 0;
+  }
+
+  .tab {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .view {
+    width: 21%;
+  }
+
+  .view:hover,
+  .see:hover {
+    color: #fff;
+    background-color: #FFB600;
+  }
+
+  input[type=submit]:hover {
+    background-color: #FFB601;
+    color: #fff;
+    border: 1px solid transparent;
+  }
+
+  .see {
+    width: 17.5%;
+  }
+
+  .navigation li a:hover:after {
+    width: 0;
+  }
+
+  .top.active {
+    display: none;
+  }
+
+  /* homeoage two styling */
+  .homepageheader nav li a,
+  .homepageheader nav li a:hover {
+    color: #fff;
+  }
+
+  .homepageheader .free:hover {
+    color: #23282C;
+  }
+
+  .homepageheader .hamburger::after {
+    left: 25%;
+  }
+}
+
+/*media query for 1024px ends here*/
+
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {}
+@media only screen and (max-width: 995px) {
+  .about .wrapper {
+    flex-direction: column;
+  }
+
+  .our-service li>div {
+    flex-direction: row;
+  }
+
+  .upper-footer .wrapper {
+    width: 36%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .upper-footer .wrapper>div {
+    margin-bottom: 20px;
+  }
+}
+
+/*media query for 995px ends here*/
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+  /* whatwedo page mediaquery starts */
+
+  .workers {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .workers li {
+    padding-bottom: 20px;
+  }
+
+  /* whatwedo page mediaquery ends */
+
+  .contact-details {
+    flex-basis: 100%;
+  }
+
+  .slide h3 {
+    font-size: 32px;
+  }
+
+  .understand span {
+    font-size: 13px;
+  }
+
+  .request {
+    font-size: 10px;
+  }
+
+  .total {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .total li:first-child {
+    margin-left: 0;
+  }
+
+  .management {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .construction,
+  .design {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .construction-img {
+    margin-bottom: 20px;
+  }
+
+  .total li {
+    margin-bottom: 20px;
+  }
+
+  .project-imgs {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .view {
+    width: 28%;
+  }
+
+  .client-info {
+    flex-direction: column;
+  }
+
+  .client-info>div {
+    margin-bottom: 20px;
+  }
+
+  .testimony-dots {
+    left: 41%;
+  }
+
+  .help,
+  .signup .wrapper {
+    flex-direction: column;
+  }
+
+  .facilities {
+    flex-direction: column;
+  }
+
+  .facilities li {
+    margin-bottom: 20px;
+  }
+
+  .see {
+    width: 22.5%;
+  }
+
+  .bottom-footer .wrapper,
+  .navigation {
+    flex-direction: column;
+  }
+
+}
+
+/*media query for 768px ends here*/
+
+/*media query for 320px starts here*/
+@media only screen and (max-width: 320px) {
+
+  /* wedopage responsive starts */
+  .prevarrow::before,
+  .nextarrow::before {
+    width: 21px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 15px;
+  }
+
+  .wedo h1 {
+    font-size: 29px;
+  }
+
+  .wedo span {
+    font-size: 10.5px
+  }
+
+  .workers {
+    width: 80%;
+  }
+
+  .workers h2 {
+    font-size: 12px;
+  }
+
+  .workers p {
+    font-size: 9px;
+  }
+}
+
+/* wedo page responsive ends */
+
+/*media query for 320px ends here*/
