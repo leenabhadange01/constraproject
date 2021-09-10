@@ -1713,6 +1713,89 @@ form span {
 
 /* Help section ends */
 /*--------------client styling ends----------*/
+/*--------------recent styling starts----------*/
+.recent h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.recent h2 {
+  padding-bottom: 8px;
+  color: #919494;
+  font-size: 18px;
+  text-align: center;
+}
+
+.recent h3 {
+  padding-bottom: 62px;
+  color: #1F1E2A;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.facilities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inActive {
+  display: none;
+}
+
+.secondFacility {
+  padding: 20px;
+}
+
+.facilities li {
+  flex-basis: 31.5%;
+}
+
+.facilities li:nth-child(2) h4 {
+  width: 95%;
+}
+
+.facilities h4 {
+  padding: 15px 0 5px;
+  color: #374350;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.facilities span {
+  color: #838B91;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.see {
+  width: 13.5%;
+  padding: 13px 0;
+  border: solid 1px transparent;
+  border-radius: 3px;
+  margin: 60px auto 71px;
+  display: block;
+  background-color: #FFB600;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all ease-in .3s;
+}
+
+.see:hover {
+  border: solid 1px transparent;
+  background-color: #23282D;
+  color: #FFB600;
+  transition: all ease-in .3s;
+}
+
+/*--------------recent styling ends----------*/
 /*=================================
   footer styling starts here
 =================================*/
