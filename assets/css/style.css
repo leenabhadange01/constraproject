@@ -1467,6 +1467,252 @@ h3 {
 
 /*--------------projects styling ends----------*/
 
+/*--------------client styling starts----------*/
+.client {
+  margin-bottom: 79px;
+}
+
+.client-info,
+.quotes,
+.chairman,
+.clients,
+.testimony {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.client-info {
+  padding-bottom: 80px;
+}
+
+.client-info h3 {
+  padding-bottom: 50px;
+  color: #291E2B;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.quotes {
+  flex-basis: 86%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes>p {
+  padding-bottom: 50px;
+  color: #888888;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.testimony>span {
+  flex-basis: 8%;
+  text-indent: -9999px;
+}
+
+.testimony>span::before {
+  content: "\f10d";
+  float: right;
+  color: #F7C308;
+  font-family: "fontAwesome";
+  font-size: 30px;
+  font-style: italic;
+  text-indent: 0;
+  transition: all ease-in .3s;
+}
+
+.chairman {
+  width: 51%;
+  align-items: center;
+}
+
+.chairman figure {
+  flex-basis: 35%;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.testimonial,
+.happy {
+  flex-basis: 47%;
+}
+
+.clients li {
+  margin-bottom: 25px;
+  padding: 12px 10px;
+  border: 1px solid #E3E3E3;
+  flex-basis: 26%;
+  filter: grayscale(100%);
+}
+
+.director h4 {
+  padding-bottom: 10px;
+  color: #F7C308;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.director p,
+.director p span {
+  color: #737373;
+  font-size: 15px;
+}
+
+.director p span {
+  text-transform: uppercase;
+}
+
+/* testimoy slider starts */
+.slider-testimony {
+  position: relative;
+}
+
+
+.slider-testimony .quoted {
+  display: none;
+}
+
+.slider-testimony .quoted:first-child {
+  display: block;
+}
+
+.testimony-dots {
+  margin-top: 10px;
+  position: absolute;
+  left: 27%;
+}
+
+.testimony-dots .dot {
+  margin-right: 15px;
+  text-indent: -9999px;
+}
+
+.testimony-dots .dot::before {
+  content: "\f111";
+  float: right;
+  color: #C0C0C0;
+  font-family: "fontAwesome";
+  font-size: 10px;
+  text-indent: 0;
+  transition: all ease-in .3s;
+}
+
+.testimony-dots .dot:first-child::before {
+  color: #FFB209;
+}
+
+
+
+
+
+/* testimny slider ends */
+
+/* Help section starts */
+.help,
+.signup .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.help h4 {
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.signup h4 {
+  color: #fff;
+}
+
+.signup .wrapper {
+  justify-content: space-between;
+}
+
+.we,
+.signup {
+  padding-top: 30px;
+}
+
+.we {
+  flex-basis: 33%;
+  background-color: #FFB601;
+  text-align: center;
+}
+
+.we a,
+.newsletter span {
+  padding-top: 10px;
+  display: block;
+  color: #fff;
+}
+
+.we a {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.newsletter span {
+  font-size: 15px;
+}
+
+.signup {
+  flex-basis: 67%;
+  background-color: #252525;
+}
+
+form {
+  flex-basis: 52%;
+}
+
+::placeholder {
+  color: #5A5A5A;
+  font-size: 12px;
+  opacity: 1;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px 7px;
+  border: 1px solid #5A5A5A;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+input[type=submit] {
+  padding: 13px 54px;
+  border: solid 1px transparent;
+  background-color: #FFB601;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all ease-in .3s;
+}
+
+input[type=submit]:hover {
+  border: solid 1px #FFB601;
+  background-color: #fff;
+  color: #FFB601;
+  transition: all ease-in .3s;
+}
+
+form>div {
+  padding-bottom: 10px;
+}
+
+form span {
+  color: #ec4319;
+  font-size: 10px;
+}
+
+/* Help section ends */
+/*--------------client styling ends----------*/
 /*=================================
   footer styling starts here
 =================================*/
