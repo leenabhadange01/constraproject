@@ -838,23 +838,332 @@ nav li:hover .dropdown {
   float: right;
 }
 
-
 /* wedo banner ends  */
-
 /*--------------Banner styling ends----------*/
-
 
 /*=================================
   main styling starts here
 =================================*/
+.about {
+  margin-top: 100px;
+}
+
+.about p {
+  color: #71726C;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.about .wrapper {
+  margin-bottom: 80px;
+}
+
+.about .wrapper,
+.build li,
+.trophy,
+.guide,
+.partner,
+.professionals,
+.our-service li>div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trophy,
+.guide,
+.partner,
+.professionals {
+  margin-bottom: 35px;
+  flex-basis: 47%;
+}
+
+.our-service li>div {
+  align-items: center;
+}
+
+.build li span {
+  text-indent: -9999px;
+}
+
+.build span::before {
+  content: "\f091";
+  float: left;
+  color: #FFB600;
+  font-family: "fontAwesome";
+  font-size: 45px;
+  text-indent: 0;
+  transition: all ease-in .3s;
+}
+
+.partner span::before {
+  content: "\f1de";
+}
+
+.guide span::before {
+  content: "\f164";
+}
+
+.professionals span::before {
+  content: "\f0c0";
+}
+
+.build h4 {
+  flex-basis: 77%;
+  color: #212121;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.deliver {
+  flex-basis: 46%;
+}
+
+.values {
+  flex-basis: 49%;
+}
+
+.values p {
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.deliver h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.deliver h2 {
+  padding-bottom: 15px;
+  color: #919494;
+  font-size: 18px;
+}
+
+.deliver h3,
+.values h3 {
+  padding-bottom: 15px;
+  color: #1F1E2A;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.deliver p {
+  padding-bottom: 35px;
+}
+
+.our-service {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-service h4,
+.ideas h4 {
+  color: #292327;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.our-service h4 {
+  padding: 16px;
+}
+
+.service-content p {
+  padding: 10px 20px;
+  border-top: 1px solid #E2E2E2;
+  font-size: 14px;
+}
+
+.our-service li {
+  border: 1px solid #E6E6E6;
+  margin-bottom: 10px;
+}
+
+.up-arrow {
+  width: 25px;
+  height: 26px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 16px;
+  display: block;
+  background-color: #000;
+  text-indent: -9999px;
+}
+
+.safety h4 {
+  color: #FFB600;
+}
+
+.safety .up-arrow {
+  background-color: #FFB600;
+}
+
+.up-arrow::after {
+  content: '\f078';
+  padding: 2px;
+  float: left;
+  font-size: 10px;
+  font-family: "fontAwesome";
+  color: #fff;
+  text-indent: 0;
+}
+
+.safety .up-arrow::after {
+  content: '\f077';
+}
+
+/*--------------experience styling starts----------*/
+.experience {
+  margin-bottom: 78px;
+  background-color: #252525;
+}
+
+.experience .wrapper {
+  width: 80%;
+  padding: 72px 0;
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total li:first-child {
+  margin-left: 31px;
+}
 
 
+.total span {
+  padding: 24px 0 14px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+}
 
+.total h4 {
+  color: #E7B038;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
+/*--------------experience styling ends----------*/
 
+/* zeroharm styling */
+.zeroharm,
+.everyday {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.everyday {
+  padding-top: 30px;
+}
 
+.zeroharm li {
+  margin: 70px 0 50px;
+  flex-basis: 31%;
+}
 
+.ideas {
+  flex-basis: 75%;
+}
+
+.ideas h4 {
+  padding-bottom: 10px;
+}
+
+.ideas p {
+  padding-bottom: 14px;
+  color: #5E676F;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.ideas a {
+  color: #5E676F;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ideas a::before {
+  content: '\f0da';
+  padding-right: 5px;
+  float: left;
+  font-size: 14px;
+  font-family: "fontAwesome";
+  color: #5E676F;
+  text-indent: 0;
+}
+
+/* zeroharm styling ends */
+
+/* wedo page styling */
+.wedo {
+  margin: 99px 0 65px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.wedo .wrapper {
+  width: 91%;
+}
+
+.workers {
+  width: 97.5%;
+  margin: 0 auto;
+}
+
+.workers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wedo h1 {
+  padding-bottom: 15px;
+  color: #3B98DC;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.wedo span {
+  padding-bottom: 45px;
+  display: block;
+  color: #969494;
+  font-size: 15.5px;
+  font-weight: bold;
+}
+
+.workers li {
+  flex-basis: 29.5%;
+}
+
+.workers h2 {
+  padding: 25px 0 11px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.workers p {
+  color: #796A8D;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* wedo page styling ends here */
 /*=================================
   main styling ends here
 =================================*/
