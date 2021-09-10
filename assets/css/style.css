@@ -1242,6 +1242,231 @@ h3 {
 
 /*--------------what styling ends----------*/
 
+/*--------------projects styling starts----------*/
+.projects {
+  padding-bottom: 73px;
+  margin-bottom: 79px;
+  background-color: #F9F9F9;
+}
+
+.projects h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.projects h2 {
+  padding-bottom: 15px;
+  color: #919494;
+  font-size: 18px;
+  text-align: center;
+}
+
+.projects h3 {
+  padding-bottom: 20px;
+  color: #1F1E2A;
+  font-size: 37px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.projects .wrapper {
+  width: 86%;
+}
+
+.projects h2 {
+  padding-top: 79px;
+}
+
+.projects h3 {
+  padding-bottom: 80px;
+}
+
+.tab {
+  width: 94%;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab li a {
+  padding: 10px 20px;
+  color: #222526;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all ease-in .3s;
+}
+
+.tab li a:hover,
+.show {
+  background-color: #FFB600;
+  transition: all ease-in .3s;
+}
+
+.project-imgs::before {
+  content: "";
+  width: 96.7%;
+  height: 3px;
+  margin: 0 auto 50px;
+  display: block;
+  background-color: #F5B61A;
+  transition: all .3s;
+}
+
+.project-imgs {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-imgs li {
+  flex-basis: 33%;
+  position: relative;
+}
+
+.plus {
+  width: 38px;
+  height: 37px;
+  position: absolute;
+  top: 18.5%;
+  right: 2.7%;
+  transform: translate(10px, -57px);
+  background-color: #FFB700;
+  text-indent: -9999px;
+}
+
+.plus::before {
+  content: "\f067";
+  padding: 9px 13px;
+  float: left;
+  color: #fff;
+  font-family: "fontAwesome";
+  font-size: 15px;
+  text-indent: 0;
+  transition: all ease-in .3s;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: .5s ease;
+}
+
+.project-imgs li:hover .overlay {
+  display: block;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.content h4 {
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content .project {
+  padding: 9px 7px;
+  border: none;
+  display: block;
+  background-color: #FFB600;
+  color: #1F1E2A;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.view {
+  width: 17%;
+  padding: 14px 0;
+  border: solid 1px transparent;
+  border-radius: 3px;
+  margin: 20px auto 0;
+  display: block;
+  color: #fff;
+  background-color: #FFB600;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all ease-in .3s;
+}
+
+.view:hover {
+  border: solid 1px transparent;
+  background-color: #23282D;
+  color: #FFB600;
+  transition: all ease-in .3s;
+}
+
+/*  modal  section start */
+.modal {
+  width: 50%;
+  height: 50%;
+  display: none;
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .6);
+}
+
+.modal.popUp {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.box {
+  width: 45%;
+  background: #000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box .btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background: #000;
+  text-transform: uppercase;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+}
+
+.box .btn::after {
+  content: 'x';
+  color: #777879;
+  font-size: 18px;
+}
+
+/*--------------projects styling ends----------*/
+
 /*=================================
   footer styling starts here
 =================================*/
